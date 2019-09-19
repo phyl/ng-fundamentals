@@ -18,7 +18,7 @@ export class EventDetailsComponent {
     }
 
     ngOnInit() {
-        this.event = this.eventService.getEvents(1)
+        this.event = this.eventService.getEvents()
     }
 
 }

@@ -13,7 +13,7 @@ import { appRoutes } from './routes';
 
 @NgModule({
   imports: [
-    BrowserModule,
+    BrowserModule, 
     RouterModule.forRoot(appRoutes)
   ],
   declarations: [
@@ -23,9 +23,7 @@ import { appRoutes } from './routes';
     EventDetailsComponent,
     NavBarComponent
   ],
-  imports: [
-    BrowserModule
-  ],
+  
   providers: [EventService, ToastrService],
   bootstrap: [EventsAppComponent]
 })

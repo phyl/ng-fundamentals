@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core'
 
-@Injectable()
+//@Injectable()
 import { from } from 'rxjs'
 export class EventService{
     getEvents(){
